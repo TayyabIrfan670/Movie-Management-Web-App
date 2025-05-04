@@ -5,8 +5,6 @@ import Link from 'next/link';
 
 // Fetcher function for SWR
 const fetcher = async () => {
-  // In a real application, this would be an API call
-  // For this example, we'll import directly
   const moviesData = await import('../../data/movies.json');
   
   const directors = moviesData.default.directors.map(director => {
