@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Layout from '../../../components/Layout';
-import moviesData from '../../../data/movies.json';
+import Layout from '../../../../components/Layout';
+import moviesData from '../../../../data/movies.json';
 
 export default function Director({ movie, director, directedMovies }) {
   return (
